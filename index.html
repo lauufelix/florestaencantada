@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>O misterio da floresta encantada</title>
+</head>
+<body>
+    <main>
+            <div class="passo ativo" id="passo-0">
+                <img src="cenario-passo0.jpg" alt="">
+                <p>Você é um detetive especializado em casos misteriosos. Recebeu uma carta anônima pedindo ajuda para resolver um enigma na Floresta Encantada. Intrigado com a proposta resolveu-se dirigir ao local pedido na carta.</p>
+                <button class="btn-proximo" data-proximo="1">Floresta das sombras douradas</button>
+                <button class="btn-proximo" data-proximo="2">Fugir</button>
+            </div>
+            <div class="passo" id="passo-1">
+                <p>Chegando na floresta, você nota uma árvore com um símbolo estranho gravado no tronco e riacho com a água cristalina. A carta lhe da as seguintes pistas:</p>
+                <button class="btn-proximo" data-proximo="3">Onde a sombra dança, procure a chave (gravado na árvore)</button>
+                <button class="btn-proximo" data-proximo="4">Siga o som da água para encontrar o primeiro indício (no riacho)</button>
+            </div>
+            <div class="passo" id="passo-2">
+                <p>Sua decisão fez com que você perdesse uma aventura expetacular!</p>
+            </div>
+            <div class="passo" id="passo-3">
+                <p>Uma pequena chave de prata é encontrada</p>
+                <button class="btn-proximo" data-proximo="6">Usar a chave para abrir uma porta secreta.</button>
+            </div>
+            <div class="passo" id="passo-6">
+                <p>Você encontrará um livro místico que conta a história da floresta no fundo de uma caverna.</p>
+            </div>
+            <div class="passo" id="passo-4">
+                <p>Um mapa parcial da floresta com um "X" marcado.</p>
+                <button class="btn-proximo" data-proximo="5">Seguir o mapa para encontrar o "X"</button>
+                <button class="btn-proximo" data-proximo="7">Voltar ao riacho para seguir o som da água.</button>
+            </div>
+            <div class="passo" id="passo-5">
+                <p>O mapa o leva por um caminho sinuoso, Após 30 minutos de caminhada, você chega a: O Coração da Floresta, um templo antigo, escondido entre árvores gigantes. A entrada é guardada por duas estátuas de leões.</p>
+            </div>
+            <div class="passo" id="passo-7">
+                <p>Voltar tudo te fez perder uma aventura ao templo antigo.</p>
+            </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
